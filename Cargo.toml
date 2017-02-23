@@ -1,0 +1,14 @@
+[package]
+authors = ["Christoph Schulz <schulzcbs@gmail.com>"]
+build = "build.rs"
+name = "winapi_gen"
+publish = false
+version = "0.0.0"
+
+[lib]
+name = "winapi_gen"
+test = true
+
+[build-dependencies]
+bindgen = "0.22"
+regex = "0.2.1"
